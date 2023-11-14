@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Tasks</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script  src="JS/first-script.js" defer></script>
+	<script src='JS/second-script.js' defer></script>
+	<link rel="stylesheet" href="css/background.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js"></script>
+</head>
+<body>
+	<div class="animate_container">
+<div id="particles-js"></div> 
+	</div>
+	<h1 class="title">Your Tasks</h1>
+	<h2 id="task_count" >Task score:<span id="score">0</span></h2>
+	<div class="task-container">
+		
+		<div class="task-input">
+			<input type="text" id="task-input" placeholder="Add a new task...">
+		</div>
+		<div class="task-list">
+			<ul id="task-list">
+			</ul>
+	</div>
+	</div>
+	<div class="button-container">
+		<button type="button" id="all-tasks">ALL</button>
+		<button type="button" id="in-progress">IN PROG</button>
+		<button type="button" id="completed">DONE</button>
+		</div>
+		<div class="button-container2">
+			<button type="button" id="allDone">ALL DONE</button>
+			<button type="button" id="deleteComplete">DEL DONE</button>
+			<button type="button" id="deleteAllTasks">DEL ALL</button>
+			</div>
+		<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+		<script src="https://raw.githubusercontent.com/mrdoob/three.js/dev/build/three.min.js"></script>
+</body>
+</html>
